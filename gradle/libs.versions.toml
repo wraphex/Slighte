@@ -1,0 +1,25 @@
+[versions]
+agp = "9.5.1"
+
+yukihook = "1.5.0"
+kavaref = "1.1.1"
+libxposed = "102.0.0"
+ksp = "2.3.12"
+junit = "4.13.2"
+
+[libraries]
+yukihook-bom = { module = "com.highcapable.yukihookapi:yukihook-bom", version.ref = "yukihook" }
+yukihook-core = { module = "com.highcapable.yukihookapi:yukihook-core" }
+yukihook-compiler = { module = "com.highcapable.yukihookapi:yukihook-compiler", version.ref = "yukihook" }
+yukihook-extension-kavaref = { module = "com.highcapable.yukihookapi:yukihook-extension-kavaref" }
+yukihook-runtime-libxposed = { module = "com.highcapable.yukihookapi:yukihook-runtime-libxposed" }
+libxposed-api = { module = "io.github.libxposed:api", version.ref = "libxposed" }
+kavaref-bom = { module = "com.highcapable.kavaref:kavaref-bom", version.ref = "kavaref" }
+kavaref-core = { module = "com.highcapable.kavaref:kavaref-core" }
+kavaref-android = { module = "com.highcapable.kavaref:kavaref-android" }
+kavaref-extension = { module = "com.highcapable.kavaref:kavaref-extension" }
+junit = { module = "junit:junit", version.ref = "junit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
