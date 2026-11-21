@@ -1,7 +1,7 @@
 [versions]
 agp = "9.5.1"
 
-yukihook = "1.5.0"
+yukihook = "1.5.1"
 kavaref = "1.1.1"
 libxposed = "102.0.0"
 ksp = "2.3.12"
